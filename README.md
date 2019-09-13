@@ -28,6 +28,12 @@ On Debian:
 apt install xyz
 ```
 
+### Test
+Use tests.sh to run unit tests:
+```bash
+sh tests.sh
+```
+
 ### Build
 
 ```bash
