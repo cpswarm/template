@@ -8,25 +8,27 @@ Foobar is not a real software. The name is used here as placeholder for a descri
 
 The project documentation is available on the [Wiki](https://github.com/cpswarm/template/wiki).
 
-### Deployment
+## Deployment
 <!-- Deployment/Installation instructions. If this is software library, change this section to "Usage" and give usage examples -->
 
+### Docker
+To run the latest version of foobar:
 ```bash
 docker run -p 8080:80 foobar
 ```
 
-### Development
+## Development
 <!-- Developer instructions. -->
 
-#### Prerequisite
-This projects depends on ZeroMQ. Installation instructions are available [here](http://zeromq.org/intro:get-the-software)
+### Prerequisite
+This projects depends on xyz. Installation instructions are available [here](https://xyz.com)
 
 On Debian:
 ```bash
-apt install libzmq3-dev
+apt install xyz
 ```
 
-#### Build
+### Build
 
 ```bash
 g++ -o app app.cpp
